@@ -152,3 +152,91 @@ div.listado{
 .input-coordenadas:focus, #numero-telefono:focus {
     border-bottom:1px solid #00B2A9;
 }
+/* Footer*/
+
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+#piePagina div div {
+    text-align: left;
+    padding: 1em 0 1.7em 0;
+}
+
+#piePagina div h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+#piePagina div p {
+    font-size: 0.9em;
+    color: #EEE;
+}
+
+#piePagina div a {
+    font-size: 0.9em;
+    color: #DDD;
+    text-decoration: none;
+}
+
+#piePagina {
+    background-color: #75726C;
+}
+
+.ancho {
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+#sprint {
+    width: 40%;
+    float: left;
+}
+
+#links {
+    float: right;
+    width: 27%;
+}
+
+#links ul, #links ul li {
+    list-style: none;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+
+#links ul {
+    padding: 0;
+    margin: 0;
+}
+
+#links ul li {
+    padding: 2px 0;
+}
+
+#bloque-gris-inferior {
+    background-color: #706D68;
+    text-align: left;
+    font-size: 0.9em;
+    padding: 1em 0;
+}
+
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#copyleft {
+    float: left;
+    color: #CCC;
+}
+
+#more-links {
+    float: right;
+    color: #CCC;
+}

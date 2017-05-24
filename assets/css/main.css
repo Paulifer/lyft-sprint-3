@@ -55,9 +55,35 @@ div.listado{
 	left: -48px;
 	right: -1px;
 	height: 711px;
-	top: 32px;
+	top: -49px;
 	background-size: cover;
 	
 	position: relative;
 }
 
+#cajaTurnMiles #cajagris {
+    position: absolute;
+    max-width: 400px;
+    top: 13em;
+    right: 0;
+    background-color: #EDE9E2;
+    padding: 3em 2.5em 3em 2em;
+    text-align: left;
+    width: 100%;
+}
+#cajaTurnMiles h3 {
+    color: #00B2A9;
+    font-size: 1.5em;
+}
+#cajaTurnMiles p {
+    text-transform: uppercase;
+    font-size: 90%;
+    color: #75726C;
+    margin: 1.5em 0;
+}
+#cajaTurnMiles #cajagris span {
+    display: block;
+    font-size: 90%;
+    margin-top: 1.5em;
+    font-weight: 400;
+}

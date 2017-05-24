@@ -6,3 +6,59 @@ Colors:
 #75726C;
 #EDE9E2
 */
+/*barra nav debe ser fixed*/
+
+nav{
+	z-index: 1;
+	font-size: 18px;
+	font-weight: 300;
+	position: fixed;
+	width: 100%;
+	height: 120px;
+	background:#E54E79 ;
+}
+
+div.logo{
+  margin-top: 40px;
+  margin-left: 82px;
+  width: 64px;
+  height: 45.5px;
+  background-repeat: no-repeat;
+  background-image: url(../img/logo-white.png);
+  background-size: contain;
+}
+div.listado{
+  justify-content: space-between;
+  width: 42%;
+  display: flex;
+
+
+	
+}
+
+
+#fondo{
+	padding: 40px;
+	left: -48px;
+	right: -1px;
+	height: 711px;
+	top: 32px;
+	background-size: cover;
+	
+	position: relative;
+}
+.contenedor{
+	margin: 0;
+	padding: 0;
+}
+.caja{
+	width: 400px;
+	height: 400px;
+	left: 600;
+	bottom: 400;
+}
+#user{
+	background-color: #EDE9E2; 
+
+	
+}
